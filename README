@@ -1,0 +1,26 @@
+Projet où un groupe d'élève se passe des bonbons.
+
+Vu que j'étais pas au cours d'introduction, je trouve plus intéressant que les élèves se passent des bons bons entre eux.
+Un élève apparaît avec un sachet de bonbon, et peux le donner à un camarade, qui recevra ainsi un bonbon.
+Le camarade, nouveau propriétaire du sachet de bonbon pourra ainsi le distribuer à un autre camarades, continuant le cycle.
+L'objectif des enfants étant de tous avoir un bonbon.
+
+Madame la professeur, non contente de l'agitation présente dans son cours, décide de rôder afin de récupérer le sachet de bonbon.
+Elle à une ouïe très fine et entend le bruit effectuer par en enfant.
+De plus si elle voit dans son champs de vision un élève se déplacer, elle le puni immédiatement.
+Un élève puni ne peut recevoir de bonbon.
+De même si elle se trouve à côté même d'un élève avec un paquet de bonbon elle le punira immédiatement.
+
+Si tous les élèves ont reçu un bonbon ou que la maitresse à trouvé le paquet la partie s'arrête.
+
+Une entité, maitresse ou élève peut choisir de se déplacer vers le bas le haut la gauche ou la droite (Diagonal si le temps me le permet).
+La maitresse peut choisir entre trois actions, se déplacer, ne rien faire, où crier.
+Ce dernier empêche le déplacement de tout enfant pendant quelques secondes.
+Le enfants peuvent se déplacer, ne rien faire, ou donner le paquet de bonbon.
+
+Une fois le paquet donner l'enfant retourne à sa place par le chemin le plus court.
+
+Il ne peut y avoir deux entités sur la même case.
+Si la maitresse veut aller sur une position où un enfant est présent, ce dernier sera décalé, excepté si il s'agit de sa position de départ (on imagine qu'il s'agit de son bureau).
+
+Le code fournit permet de générer des classes plus ou moins grandes avec plus ou moins d'élèves, il y a cependant toujours un nombre complet d'enfant par rangé (il  remplisse toutes la rangée).
