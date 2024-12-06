@@ -6,7 +6,7 @@ import ui.UI;
 
 public class Main {
     public static void main(String[] args) {
-
+        //Modification de la configuration
         Conf.set_nb_enfant_range(5);
         Conf.set_nb_range(5);
         Conf.set_dist_enfant(5);

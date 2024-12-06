@@ -34,11 +34,12 @@ public class EnfantTest {
     public void test_deplacement() throws Exception{
         Conf.set_nb_enfant_range(2);
         Conf.set_nb_range(1);
-        Conf.VITESSE_ENFANT = 1;
+        Conf.VITESSE_ENFANT = 3;
         Conf.NB_SACHET_BONBON = 1;
         Game game = new Game();
         Enfant e1 =game.liste_enfant[0];
         Enfant e2 =game.liste_enfant[1];
+        GUI.affiche_classe(game.classe);
 
         e2.a_sachet = false;
         e2.a_bonbon = false;
